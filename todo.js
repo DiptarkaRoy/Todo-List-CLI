@@ -5,7 +5,7 @@ const helpString = require("./hlpString");
 var DATABASE_PATH = "./todo.txt";
 
 function init() {
-    // We will make a database file in *.JSON format to keep our todos
+    // We will make a database file in *.txt format to keep our todos
 
     // if file doesnt exist we will create one 
     if (!fs.existsSync(DATABASE_PATH)) {
